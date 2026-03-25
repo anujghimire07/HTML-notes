@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Attributes</title>
+</head>
+<body>
+    <h2>HTML Forms and Attributes</h2>
+    <form>
+        <label for="fullname">Full name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Email Address">
+        <br><br>
+
+        <label for="tel">Phone No.:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Phone no">
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option>Nepal</option>
+            <option>India</option>
+            <option>USA</option>
+        </select>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I accept the <a href="#">terms and conditions</a>.</label>
+        <br><br>
+
+        <button type="button">Fill up</button>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name2">Full Name:</label>
+            <input type="text" id="name2" name="name2" placeholder="Full Name">
+            <label for="email2">Email Address:</label>
+            <input type="email" id="email2" name="email2" placeholder="Email Address">
+            <br><br>
+
+            <label for="phone2">Phone No.:</label>
+            <input type="tel" id="phone2" name="phone2" placeholder="Phone no">
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course">
+            <br><br>
+
+            <label for="cover">Your cover:</label>
+            <input type="text" id="cover" name="cover">
+        </fieldset>
+
+        <fieldset>
+          <label for="cmt">feedback:</label><br>
+            <textarea placeholder="What do you think about this form?" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob">
+        <label for="dob-time">DOB Time:</label>
+        <input type="time" id="dob-time" name="dob-time">
+        <label for="visiting-date">Visiting Date:</label>
+        <input type="date" id="visiting-date" name="visiting-date">
+        <br><br>
+
+        <label for="month">Booked Month:</label>
+        <input type="month" id="month" name="month">
+        <label for="week">Arrival Week:</label>
+        <input type="week" id="week" name="week">
+        <br><br>
+
+        <label for="color">Product Color:</label>
+        <input type="color" id="color" name="color">
+        <label for="units">Product units:</label>
+        <input type="range" id="units" name="units" min="1" max="10">
+        <output></output>
+        <br><br>
+
+        <label for="profile">Profile Picture:</label>
+        <input type="file" id="profile" name="profile">
+        <br><br>
+
+        <label>Payment Options:</label>
+        <input type="radio" name="payment" value="cash"> Cash
+        <input type="radio" name="payment" value="e-payment"> E-payment
+        <br><br>
+
+        <input type="checkbox" id="terms2" name="terms2">
+        <label for="terms2">I accept the terms and conditions.</label>
+        <br><br>
+
+        <input type="search" placeholder="Search Anything">
+        <input type="password" value="secret_msg">
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Click Me</button> 
+        <br><br>
+
+        <p>Name: Anuj Ghimire Section: C Roll NO.: 93</p>
+    </form>
+</body>
+</html>
+
